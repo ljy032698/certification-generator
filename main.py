@@ -1,4 +1,7 @@
 import pandas as pd
+import docx
+from docx.oxml.ns import qn
+from docx.enum.text import WD_ALIGN_PARAGRAPH
 from openpyxl import load_workbook
 from openpyxl import Workbook
 
